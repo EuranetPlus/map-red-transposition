@@ -1,7 +1,8 @@
 import { writable } from 'svelte/store';
+
 export const mapConfig = writable({
-  "title": "What is the status of the transposition of the REDIII in the EU?",
-  "subtitle": "By November 2025 6 out of 27 EU member states have transposed REDIII partially or fully.",
+  "title": "How are EU countries faring in terms of their renewable energy goals?",
+  "subtitle": "Only six of the EU's 27 member states had transposed the Renewable Energy Directive (RED III), either partially or fully, by November 2025..",
   "colourSchemeClasses": 5,
   "data": "country,id,value,extraInfo,text_content,link_text,link_url_target,audio_url_1,audio_url_2,audio_url_3,image_url_source,image_url_target,video_url\nAustria,AT,0,true,Nothing,,,,,,,,\nBelgium,BE,0.25,true,Published draft legislation,,,,,,,,\nBulgaria,BG,-0,true,Nothing,,,,,,,,\nCyprus,CY,0,FALSE,,,,,,,,,\nCzechia,CZ,1,true,Transposed both industry and transport targets,,,,,,,,\nGermany,DE,0.25,true,Published draft legislation,,,,,,,,\nDenmark,DK,0.5,true,Transposed only transport,,,,,,,,\nEstonia,EE,0,true,Nothing,,,,,,,,\nGreece,EL,0,true,Nothing,,,,,,,,\nSpain,ES,0.25,true,Published draft legislation,,,,,,,,\nFinland,FI,0.5,true,Transposed only transport,,,,,,,,\nFrance,FR,0.25,true,Published draft legislation,,,,,,,,\nCroatia,HR,0.000,true,Nothing,,,,,,,,\nHungary,HU,1,true,Transposed both industry and transport targets,,,,,,,,\nIreland,IE,0,true,Nothing,,,,,,,,\nItaly,IT,0.25,true,Published draft legislation,,,,,,,,\nLithuania,LT,1,true,Transposed both industry and transport targets,,,,,,,,\nLuxembourg,LU,0,true,Nothing,,,,,,,,\nLatvia,LV,0,true,Nothing,,,,,,,,\nMalta,MT,0,true,Nothing,,,,,,,,\nNetherlands,NL,0.25,true,Published draft legislation,,,,,,,,\nPoland,PL,0,true,Nothing,,,,,,,,\nPortugal,PT,0.25,true,Published draft legislation,,,,,,,,\nRomania,RO,1,true,Transposed both industry and transport targets,,,,,,,,\nSweden,SE,0,true,Nothing,,,,,,,,\nSlovenia,SI,-0,true,Nothing,,,,,,,,\nSlovakia,SK,0,true,Nothing,,,,,,,,",
   "parsedData": [
@@ -428,7 +429,7 @@ export const mapConfig = writable({
   "textSource": "Hydrogen Europe",
   "textNoteAvailable": true,
   "textNoteDescription": "Note",
-  "textNote": "REDIII stands for Renewable Energy Directive III in which a revision was conducted with the result that the cross-sectoral target for the use of renewable energies in the EU by 2030 has to be significantly increased.",
+  "textNote": "REDIII refers to the Renewable Energy Directive III. Following its review, it was concluded that the cross-sectoral target for the use of renewable energy in the EU by 2030 needed to be significantly increased.",
   "textDataAccessAvailable": true,
   "linkDataAccessDescription": "Access the data",
   "linkDataAccess": "https://hydrogeneurope.eu/",
@@ -438,10 +439,10 @@ export const mapConfig = writable({
   "customUnitLabel": "",
   "tooltipExtraInfoLabel": "Click here",
   "translate": {
-    "title": "What is the status of the transposition of the REDIII in the EU?",
-    "subtitle": "By November 2025 6 out of 27 EU member states have transposed REDIII partially or fully.",
+    "title": "How are EU countries faring in terms of their renewable energy goals?",
+    "subtitle": "Only six of the EU's 27 member states had transposed the Renewable Energy Directive (RED III), either partially or fully, by November 2025..",
     "textNoteDescription": "Note",
-    "textNote": "REDIII stands for Renewable Energy Directive III in which a revision was conducted with the result that the cross-sectoral target for the use of renewable energies in the EU by 2030 has to be significantly increased.",
+    "textNote": "REDIII refers to the Renewable Energy Directive III. Following its review, it was concluded that the cross-sectoral target for the use of renewable energy in the EU by 2030 needed to be significantly increased.",
     "textSourceDescription": "Source",
     "textSource": "Hydrogen Europe",
     "linkDataAccessDescription": "Access the data",
